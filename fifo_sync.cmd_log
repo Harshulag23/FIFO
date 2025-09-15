@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/fifo_/fifo_sync.xst" -ofn "/home/ise/fifo_/fifo_sync.syr" 

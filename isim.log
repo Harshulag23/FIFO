@@ -1,0 +1,62 @@
+ISim log file
+Running: /home/ise/fifo_/testbench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/fifo_/testbench_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+                   5
+ SCENARIO 1
+                  15 write_data data_in = 1
+                  35 write_data data_in = 10
+                  55 write_data data_in = 100
+                  85 read_data data_out = x
+                 105 read_data data_out = 1
+                 125 read_data data_out = 10
+                 125
+ SCENARIO 2
+                 135 write_data data_in = 1
+                 165 read_data data_out = 100
+                 175 write_data data_in = 2
+                 205 read_data data_out = 1
+                 215 write_data data_in = 4
+                 245 read_data data_out = 2
+                 255 write_data data_in = 8
+                 285 read_data data_out = 4
+                 295 write_data data_in = 16
+                 325 read_data data_out = 8
+                 335 write_data data_in = 32
+                 365 read_data data_out = 16
+                 375 write_data data_in = 64
+                 405 read_data data_out = 32
+                 415 write_data data_in = 128
+                 445 read_data data_out = 64
+                 445
+ SCENARIO 3
+                 455 write_data data_in = 1
+                 475 write_data data_in = 2
+                 495 write_data data_in = 4
+                 515 write_data data_in = 8
+                 535 write_data data_in = 16
+                 555 write_data data_in = 32
+                 575 write_data data_in = 64
+                 595 write_data data_in = 128
+                 615 write_data data_in = 256
+                 645 read_data data_out = 128
+                 665 read_data data_out = 1
+                 685 read_data data_out = 2
+                 705 read_data data_out = 4
+                 725 read_data data_out = 8
+                 745 read_data data_out = 16
+                 765 read_data data_out = 32
+                 785 read_data data_out = 64
+Stopped at time : 825 ns : File "/home/ise/fifo_/testbench.v" Line 117
+# exit 0
